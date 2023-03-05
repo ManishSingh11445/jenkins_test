@@ -1,6 +1,6 @@
 pipeline{
 agent any
-toos {
+tools {
 gradle 'Gradle-6.2'
 }
 stages {
