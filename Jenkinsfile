@@ -2,7 +2,7 @@ pipeline{
 agent any
 toos {
 gradle 'Gradle-6.2'
-
+}
 stages {
 stage("run frontend"){
 steps{
@@ -18,7 +18,6 @@ stage("run backend"){
 steps{
 echo "executing gradle"
 sh './gradlew -v'
-}
 }
 }
 
