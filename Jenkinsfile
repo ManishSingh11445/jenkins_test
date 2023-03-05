@@ -4,6 +4,7 @@ stages {
 stage("build"){
 steps{
 echo "building the app"
+  echo "build done"
 }
 }
 
