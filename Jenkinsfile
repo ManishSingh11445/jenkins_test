@@ -4,7 +4,7 @@ stages {
 stage("run frontend"){
 steps{
 echo "executing yarn"
-nodejs('Node-1.5.1')
+nodejs('Node-19.7')
 {
 sh 'yarn install'
 }
