@@ -21,7 +21,9 @@ stages {
   
 stage("build"){
 steps{
+       script {
      gv.buildApp()
+       }
 }
 }
 
